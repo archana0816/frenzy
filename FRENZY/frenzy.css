@@ -1,0 +1,65 @@
+.bc
+{background-color:pink;}
+*{margin: 0;
+    padding: 0;
+box-sizing: border-box;} 
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width:1300px;
+    margin: auto;
+    padding-left: 25px; 
+    padding-right: 25px;
+
+}
+.row{
+    position: relative;
+    align-items: center;
+}
+.col-2{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: rgb(202, 29, 29);
+}
+.btn{
+    display: inline-block;
+    background: bisque;
+    padding: 8px 30px;
+    margin: 30px 0 ;
+    border-radius: 30px;
+}
+.cl{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: rgb(202, 29, 29);
+}
+.gn{
+    padding: 1px 10px;
+    border-radius: 5cm;
+}
+.fs
+{
+    style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 200%;"
+}
